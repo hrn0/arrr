@@ -1,5 +1,5 @@
 window.onload = function() {
-   alert("あああ");
+   //alert("あああ");
     document.body.onclick = function() {
         if (this.webkitRequestFullScreen) {
              this.webkitRequestFullScreen();
@@ -52,7 +52,7 @@ function draw(){
   con.fillRect(b_x,70,30,30);
 
   con.fillStyle = "white"
-  con.fillRect(i_si_x*go_p, i_y+i_si_y*su_p, i_si_x, i_si_y)
+  con.fillRect(i_si_x*go_p, i_y+(i_y+i_si_y)*su_p, i_si_x, i_si_y)
   //con.drawImage(bimage,i_si_x*go_p,i_y,i_si_x,i_si_y)
 
 }
