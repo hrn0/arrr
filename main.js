@@ -20,7 +20,7 @@ let i_si_x = 80;
 let i_si_y = 125;
 let i_y = 25;
 let go_p = 3;
-let su_p = 1;
+let su_p = 0;
 
 let b_x = 380;
 
@@ -52,7 +52,7 @@ function draw(){
   con.fillRect(b_x,70,30,30);
 
   con.fillStyle = "white"
-  con.fillRect(i_si_x*go_p,i_y*su_p,i_si_x,i_si_y)
+  con.fillRect(i_si_x*go_p, i_y+i_si_y*su_p, i_si_x, i_si_y)
   //con.drawImage(bimage,i_si_x*go_p,i_y,i_si_x,i_si_y)
 
 }
