@@ -86,8 +86,8 @@ function clear(){
         su_p = su_p+1;
         }
     }
-    if(su_p<0)i_y=0;
-    if(su_p>2)i_y=2;
+    if(su_p<0)su_p=0;
+    if(su_p>2)su_p=2;
     }, false);
 
     if(i_y<0)i_y=0;
