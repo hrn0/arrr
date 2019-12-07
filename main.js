@@ -1,5 +1,5 @@
 window.onload = function() {
-   //alert("あああ");
+   alert("あああ");
     document.body.onclick = function() {
         if (this.webkitRequestFullScreen) {
              this.webkitRequestFullScreen();
