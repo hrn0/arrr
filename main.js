@@ -90,6 +90,10 @@ function clear(){
     if(su_p>2)i_y=2;
     }, false);
 
+    if(i_y<0)i_y=0;
+    if(i_y>450)i_y=450;
+    }, false);
+
 
 function main(){
 clear();
